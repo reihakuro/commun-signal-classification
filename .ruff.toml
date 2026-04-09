@@ -1,0 +1,13 @@
+line-length = 120
+
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "notebooks",
+]
+
+[lint]
+# E: pycodestyle, F: Pyflakes, I: isort
+select = ["E", "F", "I"]
