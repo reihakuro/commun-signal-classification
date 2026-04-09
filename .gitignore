@@ -1,5 +1,5 @@
 ###
-venv/
+.venv/
 data/
 logs/
 ###
@@ -26,3 +26,5 @@ __pycache__/
 ###
 tmp/
 temp/
+###
+.ruff_cache/
